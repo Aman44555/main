@@ -1,0 +1,4 @@
+This project implements a Visual Product Matcher web application that allows users to upload an image and retrieve visually similar products.
+The backend is built using Node.js and Express with MongoDB as the database. Each product stores metadata and vector embeddings. Cosine similarity is used to compare query embeddings with stored product embeddings.
+Embeddings can be generated using OpenAI's embedding model or other free-tier ML APIs. The search endpoint filters products based on similarity score and sorts them accordingly.
+The frontend (React) allows image upload and URL input. It displays the uploaded image, similar products, and includes filtering functionality. The application is mobile responsive and deployed using free hosting services.
